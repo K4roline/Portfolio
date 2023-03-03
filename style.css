@@ -45,8 +45,8 @@ html {
     margin: 100px;
 }
 
-.title__bio  {
-    padding: 150px;
+.title__bio {
+    padding: 150px
 }
 
 .title__subsection {
@@ -72,10 +72,10 @@ html {
 
 .about__paragraph {
    padding-top: 15px;
-   padding-bottom: 15px;
+   padding-bottom: 55px;
 }
 
-.skills__line {
+.skills__line, .skills__title {
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -129,6 +129,33 @@ html {
     justify-content: center;
  }
 
+ .academic__title {
+    padding: 60px;
+    padding-left: 450px;
+}
+
+.academic__courses__box {
+    padding-left: 450px;
+}
+
+.academic__courses__item__title {
+    padding: 25px;
+}
+
+.experience__section__title {
+    padding: 80px;
+    padding-left: 450px;
+}
+
+.experience__img {
+    width: 500px;
+    height: 300px;
+    padding-left: 450px;
+}
+
+.experience__title, .experience__text, .experience__description, .experience__repo, .experience__demo, .about__project {
+    text-align: center;
+}
 
 
  /* @media (min-width: 768px) {
