@@ -25,6 +25,13 @@ html {
     overflow: auto;
 }
 
+.faixa {
+    width: 30%;
+    height: 400px;
+    border: rgb(75, 177, 124);
+    background-color: rgb(235, 243, 234);
+}
+
 .menu__list li {
     padding: 9px;
     float: right;
@@ -46,11 +53,13 @@ html {
 }
 
 .title__bio {
-    padding: 150px
+    padding: 150px;
+    text-align: center;
 }
 
 .title__subsection {
     margin-top: -90px;
+    text-align: center;
 }
  
 .title__network, .title__network__item {
@@ -106,7 +115,6 @@ html {
     height: 37px;
     margin-left: 5px;
 }
-
 
 .hobbies__line, .hobbies__title {
    display: flex;
