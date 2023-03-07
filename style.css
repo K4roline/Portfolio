@@ -9,7 +9,6 @@
 
 body {
     box-sizing: border-box;
-    /* background-color: ; */
     font-family: 'Raleway';
     margin: 0;
     padding: 0;
@@ -26,10 +25,9 @@ html {
 }
 
 .faixa {
-    width: 30%;
-    height: 400px;
-    border: rgb(75, 177, 124);
-    background-color: rgb(235, 243, 234);
+    background-color: rgb(75, 177, 124);
+    width: 90px;
+    height: 500px;
 }
 
 .menu__list li {
@@ -163,6 +161,12 @@ html {
 
 .experience__title, .experience__text, .experience__description, .experience__repo, .experience__demo, .about__project {
     text-align: center;
+}
+
+.formcontato__img {
+    width: 500px;
+    height: 300px;
+    padding-left: 450px; 
 }
 
 
