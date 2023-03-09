@@ -9,14 +9,14 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Raleway';
     margin: 0;
     padding: 0;
     line-height: 1;
 }
 
-ol, ul, li {
+ol, ul, li, a {
     list-style: none;
+    text-decoration: none;
 }
 
 html { 
@@ -24,14 +24,24 @@ html {
     overflow: auto;
 }
 
+body , ul, li, p, a, .title__bio, .title__subsection, .title__network__item, .about__title, .about__paragraph, .skills__title, .skills__name, .hobbies__title, .hobbies__name, 
+.academic__title, .academic__courses__item__title, .academic__courses__item__subtitle,  .experience__section__title, .experience__title, .experience__text, .about__project,
+.formcontato__title {
+    font-family: 'Raleway', sans-serif;
+}
+
+.title__network__item a, .menu__list__item a {
+    color: rgb(42, 135, 87);
+}
+
 .faixa {
     float: left;
     justify-content: center;
     align-items: baseline;
     order: initial;
-    background-color: rgb(69, 66, 66);
+    background-color: rgb(204, 230, 216);
     width: 350px;
-    height: 2400px;
+    height: 3422px;
 }
 
 .sobre {
@@ -43,9 +53,11 @@ html {
 }
 
 .menu__list li {
-    padding: 9px;
+    padding: 15px;
     float: right;
     flex-direction: row;
+    color: rgb(42, 135, 87);
+    font-weight: bold;
 }
 
 .title__div {
@@ -53,7 +65,7 @@ html {
 }
 
 .title__profile {
-    border: solid blue;
+    border: solid rgb(42, 135, 87);
     width: 250px;
     height:250px;
     border-radius: 100%;
@@ -77,6 +89,7 @@ html {
     flex-direction: row;
     padding: 30px;
     border-top: 50px;
+    list-style: none;
 }
 
 .title__container {
@@ -102,7 +115,7 @@ html {
 }
 
 .about__title {
-   padding-top: 450px;
+   padding-top: 500px;
    padding-bottom: 55px;
    text-align: center;
 }
@@ -111,7 +124,7 @@ html {
    display: flex;
    flex-direction: row;
    justify-content: center;
-   padding: 20px;
+   padding: 30px;
 }
 
 .skills__box, .hobbies__box, .title__network__item {
@@ -174,7 +187,8 @@ html {
 }
 
 .experience__section__title {
-    padding: 80px;
+    padding-top: 150px;
+    padding-bottom: 70px;
     padding-left: 450px;
 }
 
@@ -191,29 +205,56 @@ html {
     border-left: 55px;
 }
 
-.experiencia__botao--repo, .experiencia__botao--demo {
-    border: 1px solid black;
+.experiencia__botao--repo, .experiencia__botao--demo, .formcontato__botao {
+    border: 1px solid rgb(42, 135, 87);
     border-radius: 5px;
     width: 90px;
+    color: rgb(42, 135, 87);
 }
 
+.formcontato__title {
+    padding-bottom: 50px;
+}
 
-.formcontato__img {
-    text-align: left;
-    width: 100px;
+.formcontato__subtext {
+    padding-bottom: 30px;
+}
+
+.formcontato__text {
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 450px; 
+}
+
+.formcontato__input {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid rgb(42, 135, 87);
+    border-radius: 10px;
+    width: 350px;
+}
+
+.formcontato__textarea {
+    border-left: 200px;
+    border: 2px solid rgb(42, 135, 87);
+    border-radius: 10px;
+    width: 395px;
+    height: 350px;
+    resize: none;
+    line-height: 30px;
+}
+
+.footer__rodape {
+    width: 100%;
     height: 100px;
+    text-align: center;
+    background-color: rgb(42, 135, 87);
+    padding-top: 45px;
 }
-
-
 
 
  /* @media (min-width: 768px) {
 
     
-    }
-    
-@media (min-width: 425px) {
-    
-    
-    }
-     */
