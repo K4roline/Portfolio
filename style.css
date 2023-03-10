@@ -255,6 +255,8 @@ body , ul, li, p, a, .title__bio, .title__subsection, .title__network__item, .ab
 }
 
 
- /* @media (min-width: 768px) {
+@media screen and (max-width:480px) {
+    
+}
 
     
