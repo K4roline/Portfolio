@@ -264,6 +264,7 @@ html {
     }
 
     .title__profile {
+        margin-top: 135px;
         width: 100px;
         height:100px;
         margin-left: 10px;
@@ -282,8 +283,11 @@ html {
         height: 150px;
         text-align: start;
         padding: 148px;
+    }
 
-    
+    .about__title, .about__paragraph {
+        text-align: center;
+        width: 390px;
     }
 
     .title__subsection {
@@ -297,9 +301,58 @@ html {
 
     .title__network, .title__network__item {
         text-align: left;
-    } 
-
-    .about__title, .about__paragraph {
-
+        width: 100px;
+        height:100px;
+        margin-left: -150px;
+        width: 350px;
     }
+
+    .skills__line {
+        flex-direction: column;
+        align-items: center;
+        padding: 25px;
+        width: 300px;
+    }
+
+    .skills__title {
+        text-align: center;
+        width: 300px;
+    }
+
+    .skills__img, .skills__name {
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+    }
+
+    .skills__box {
+        padding: 15px;
+    }
+
+    .hobbies__title {
+        padding-top: 50px;
+        text-align: center;
+        width: 300px;
+    }
+
+    .hobbies__line {
+        flex-direction: column;
+        text-align: center;
+        width: 300px;
+    }
+
+    .hobbies__box {
+        padding: 15px;
+    }
+
+    /* .academic__title {
+        padding: 60px;
+        padding-left: 450px;
+    }
+
+    .academic__courses__box {
+        flex-direction: column;
+        text-align: left;
+        width: 300px;
+    } */
 }
