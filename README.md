@@ -1,1 +1,1 @@
-Desenvolvimento de um site contendo meu portifólio com informações e projetos pessoais.
+Site desenvolvido contendo meu portifólio com informações e projetos pessoais.
