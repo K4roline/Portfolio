@@ -20,7 +20,7 @@
 
     .menu__list li {
         font-size: 10px;
-        padding: 8px;
+        padding: 5px;
         float: left;
         flex-direction: column;
         border-left: 15px;
