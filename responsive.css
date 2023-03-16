@@ -1,4 +1,4 @@
-@media screen and (max-width:480px) {
+@media screen and (max-width:428px) {
     
     * {
         box-sizing: border-box;
@@ -28,7 +28,8 @@
 
     .faixa {
         width: 120px;
-        height: 400vh;
+        height: 390vh;
+        position: static;
     }
 
     .title__profile {
